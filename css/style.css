@@ -1,0 +1,333 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	outline: 0;
+ }
+
+ body {
+ 	font-family: 'PT Sans', sans-serif;
+ 	color: #010101;
+ }
+
+ .wrapper {
+ 	width: 65%;
+ 	margin: 0 auto;
+ 	overflow: hidden;
+ }
+
+ /*header-start*/
+
+ header {
+ 	background: #FEDD3E;
+ 	padding: 60px 0;
+ }
+
+ .logo {
+ 	width: 25%;
+ 	float: left;
+ }
+
+ .logo img {
+ 	float: left;
+ 	margin-right: 10px;
+ }
+
+ .logo span {
+ 	font-size: 30px;
+ 	font-weight: bold;
+ 	margin-bottom: 0;
+ 	width: 100px;
+ }
+
+ .menu {
+ 	width: 65%;
+ 	float: right;
+ }
+
+ .menu ul {
+ 	float: right;
+ 	list-style: none;
+ }
+
+ .menu ul li {
+ 	float: left;
+ }
+
+ .menu ul li a {
+ 	text-decoration: none;
+ 	font-size: 22px;
+ 	font-weight: bold;
+ 	padding: 8px 35px;
+ 	color: #010101;
+ 	display: block;
+ }
+
+ .menu ul li:first-child a {
+ 	padding-left: 0;
+ }
+
+ .menu ul li:last-child a {
+ 	padding-right: 0;
+ }
+
+ .menu ul li a:hover {}
+
+ /*header-end*/
+
+ /*banner-start*/
+
+ .banner {
+ 	background: #FEDD3E;
+ 	padding-bottom: 105px;
+ }
+
+ .banner-left {
+ 	width: 35%;
+ 	float: left;
+ 	padding-top: 70px;
+ }
+
+ .b-left-text {}
+
+ .b-left-text h1 {
+ 	font-size: 32px;
+ 	margin-bottom: 22px;
+ }
+
+ .first-p {
+ 	font-size: 20px;
+ 	color: #313841;
+ }
+
+ .secound-p {
+ 	font-size: 16px;
+ 	color: #555555;
+ 	margin-top: 22px;
+ }
+
+ /*
+.b-left-icon {
+    margin-top: 42px;
+}
+.b-left-icon i {
+    font-size: 40px;
+    color: #010101;
+    padding-right: 25px;
+}
+.b-left-icon i:last-child{
+	padding-right: 0;
+}
+*/
+
+ .custom_icon {
+ 	height: 100px;
+ 	width: 120px;
+ 	margin-left: -40px;
+ }
+
+ .custom_icon1 {
+ 	height: 61px;
+ 	width: 73px;
+ 	margin-bottom: 18px;
+ }
+
+ .custom_icon2 {
+ 	height: 48px;
+ 	width: 56px;
+ 	margin-left: 40px;
+ 	margin-bottom: 25px;
+ }
+
+
+ .banner-right {
+ 	width: 40%;
+ 	float: right;
+ }
+
+ .banner-right img {
+ 	float: right;
+ 	margin-right: 5%;
+ }
+
+ /*banner-end*/
+
+ /*feature-start*/
+
+ .feature {
+ 	padding-bottom: 160px;
+ 	padding-top: 120px;
+ }
+
+ .feature-top {
+ 	text-align: center;
+ 	padding-bottom: 90px;
+ }
+
+ .feature-top h1 {
+ 	font-size: 32px;
+ 	margin-bottom: 18px;
+ }
+
+ .feature-top p {
+ 	font-size: 20px;
+ 	color: #313841;
+ }
+
+
+ .feature-bottom {
+ 	overflow: hidden;
+ }
+
+
+
+ /*single-feature-start*/
+
+ .single-feature {
+ 	width: 31%;
+ 	float: left;
+ 	overflow: hidden;
+ 	margin-right: 3.5%;
+ }
+
+ .single-feature:nth-child(3) {
+ 	margin-right: 0;
+ }
+
+ .single-feature:nth-child(6) {
+ 	margin-right: 0;
+ }
+
+ .margin-bottom {
+ 	margin-bottom: 90px;
+ }
+
+ .Fb-icon {
+ 	width: 15%;
+ 	float: left;
+ }
+
+ .Fb-icon i {
+ 	font-size: 50px;
+ }
+
+ .Fb-text {
+ 	width: 78%;
+ 	float: left;
+ 	margin-left: 7%;
+ }
+
+ .Fb-text h2 {
+ 	font-size: 22px;
+ 	margin-bottom: 15px;
+ }
+
+ .Fb-text p {
+ 	font-size: 16px;
+ 	color: #898989;
+ }
+
+ /*single-feature-end*/
+
+ /*feature-end*/
+
+ /*footer-start*/
+
+ footer {
+ 	background: #010101;
+ 	color: #ffffff;
+ 	padding-top: 140px;
+ 	padding-bottom: 180px;
+ }
+
+ .footer-top {
+ 	text-align: center;
+ }
+
+ .footer-text {}
+
+ .footer-text h1 {
+ 	font-size: 32px;
+ 	color: #fcdb00;
+ 	margin-bottom: 18px;
+ }
+
+ .footer-text p {
+ 	font-size: 20px;
+ 	color: #898989;
+ 	margin-bottom: 40px;
+ }
+
+ .footer-form {}
+
+ .footer-form input {
+ 	padding: 19px 25px;
+ 	border-radius: 5px;
+ 	border: none;
+ 	width: 78%;
+ 	font-size: 16px;
+ }
+
+ .footer-form button {
+ 	border: none;
+ 	padding: 19px 0;
+ 	font-size: 16px;
+ 	font-weight: bold;
+ 	border-radius: 5px;
+ 	background: #fcdb00;
+ 	margin-left: 2%;
+ 	width: 12%;
+ }
+
+ .footer-social {
+ 	margin-top: 80px;
+ }
+
+ .footer-social i {
+ 	font-size: 42px;
+ 	margin-right: 32px;
+ 	background: #fcdb00;
+ 	color: #010101;
+ 	width: 36px;
+ 	height: 36px;
+ 	border-radius: 7px;
+ }
+
+ .footer-social i:last-child {
+ 	margin-right: 0;
+ }
+
+ .footer-social img {
+ 	margin-right: 32px;
+ }
+
+ .footer-bottom {
+ 	margin-top: 135px;
+ }
+
+ .footer-bottom address {
+ 	width: 17.1%;
+ 	float: left;
+ 	margin-right: 1.8%;
+ 	margin-left: 0%;
+ 	font-size: 16px;
+ 	color: #ffffff;
+ }
+
+ .footer-bottom ul {
+ 	width: 17.1%;
+ 	float: left;
+ 	list-style: none;
+ 	margin-right: 1.8%;
+ 	margin-left: 1.8%;
+ }
+
+ .footer-bottom ul:last-child {
+ 	margin-right: 0;
+ }
+
+ .footer-bottom ul li {
+ 	font-size: 16px;
+ 	color: #ffffff;
+ }
+
+ /*footer-end*/
